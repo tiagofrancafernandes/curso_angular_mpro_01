@@ -1,0 +1,12 @@
+image:
+  file: gitpod/workspace-mongodb
+vscode:
+  extensions:
+    - ms-vsliveshare.vsliveshare-pack@0.3.3:RPaLo4z5KJB+mvACQyWsSA==
+    - austenc.laravel-blade-spacer@1.0.3:iQ+wc1o3sg9U3k+I1g1J2w==
+    - onecentlin.laravel-blade@1.20.0:cRpyKxGh7po7Nes2YsNVLg==
+    - ryu1kn.text-marker@1.11.0:I3VSuzsSBVuaUKyKq6dSSQ==
+    - alefragnani.project-manager@10.8.0:yI+BFyVOg0Ryxeo0JqFXaQ==
+    - tiansin.vscode-laravel-assist@0.1.7:GEJzc+tLqwGoCs6GZsq63w==
+    - alefragnani.Bookmarks@10.5.0:gIDcNP8zFn99fweImt4TEw==
+    - mkloubert.vscode-kanban@1.26.2:0lplT00eA+EiYHicx8A+Jw==
