@@ -1,2 +1,2 @@
 alias v='gp open'
-alias las='ls -lahs'
+alias las='ls -lahs --color=auto'
