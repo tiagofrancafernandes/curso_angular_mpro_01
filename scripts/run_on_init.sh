@@ -11,3 +11,5 @@ fi
 
 sleep 5s
 source ~/.bashrc
+
+mongo-express -H 127.0.0.1 & mongod
