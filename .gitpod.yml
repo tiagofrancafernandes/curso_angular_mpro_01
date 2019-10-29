@@ -1,5 +1,6 @@
 image:
   file: Dockerfile
+- port: 8081
 tasks:
   - init: if [ -f $GITPOD_REPO_ROOT/scripts/run_on_init.sh ]; then chmod +x $GITPOD_REPO_ROOT/scripts/run_on_init.sh && $GITPOD_REPO_ROOT/scripts/run_on_init.sh; fi && echo "teste ok"
 vscode:
