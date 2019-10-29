@@ -9,5 +9,5 @@ source ~/.bashrc
 
 alias start-mongo-express='mongo-express -H 127.0.0.1 & mongod'
 
-mongo-express -H 127.0.0.1 &
-mongod &
+#mongo-express -H 127.0.0.1 &
+#mongod &
