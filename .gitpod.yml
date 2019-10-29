@@ -7,6 +7,7 @@ ports:
     onOpen: open-preview
 tasks:
   - init: if [ -f $GITPOD_REPO_ROOT/scripts/run_on_init.sh ]; then chmod +x $GITPOD_REPO_ROOT/scripts/run_on_init.sh && $GITPOD_REPO_ROOT/scripts/run_on_init.sh; fi && echo "teste ok"
+  - command: echo "Terminal1"
 vscode:
   extensions:
     - austenc.laravel-blade-spacer@1.0.3:iQ+wc1o3sg9U3k+I1g1J2w==
