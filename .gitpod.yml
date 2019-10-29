@@ -1,7 +1,15 @@
 image:
   file: Dockerfile
+ports:
+  - port: 27017
+    onOpen: ignore
+  - port: 8081
+    onOpen: open-preview
 tasks:
-  - init: if [ -f $(pwd)/scripts/run_on_init.sh ]; then chmod +x $(pwd)/scripts/run_on_init.sh && $(pwd)/scripts/run_on_init.sh; fi
+  - init: if [ -f $GITPOD_REPO_ROOT/scripts/run_on_init.sh ]; then chmod +x $GITPOD_REPO_ROOT/scripts/run_on_init.sh && $GITPOD_REPO_ROOT/scripts/run_on_init.sh; fi && echo "teste ok"
+  - command: echo "Terminal1"
+  - command: mongo-express -H 127.0.0.1 & mongod
+  - command: alias start-mongo-express='mongo-express -H 127.0.0.1 & mongod'
 vscode:
   extensions:
     - austenc.laravel-blade-spacer@1.0.3:iQ+wc1o3sg9U3k+I1g1J2w==

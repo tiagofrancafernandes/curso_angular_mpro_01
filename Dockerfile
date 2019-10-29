@@ -8,6 +8,7 @@ RUN sudo apt-get update \
  && sudo apt-get clean \
  && npm install -g @angular/cli\
  && npm install -g http-server\
+ && npm install -g mongo-express\
  && sudo rm -rf /var/lib/apt/lists/*
 RUN sudo mkdir -p /data/db \
  && sudo chown gitpod:gitpod -R /data/db
