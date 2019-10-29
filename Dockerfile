@@ -10,5 +10,4 @@ RUN sudo apt-get update \
  && npm install -g mongo-express\
  && sudo rm -rf /var/lib/apt/lists/*
 RUN sudo mkdir -p /data/db \
- && sudo chown gitpod:gitpod -R /data/db\
- && sudo service mongod start
+ && sudo chown gitpod:gitpod -R /data/db
