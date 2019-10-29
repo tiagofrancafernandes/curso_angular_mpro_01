@@ -1,5 +1,7 @@
 image:
   file: Dockerfile
+tasks:
+  - init: ln -s ./.profile_files/.bash_aliases ~/.profile_files
 vscode:
   extensions:
     - austenc.laravel-blade-spacer@1.0.3:iQ+wc1o3sg9U3k+I1g1J2w==
