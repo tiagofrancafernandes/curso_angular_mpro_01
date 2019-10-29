@@ -1,7 +1,7 @@
 image:
   file: Dockerfile
 tasks:
-  - init: ln -s $(pwd)/.profile_files/.bash_aliases ~/.bash_aliases && source ~/.bashrc
+  - init: if [ -f $(pwd)/scripts/run_on_init.sh ]; then chmod +x $(pwd)/scripts/run_on_init.sh && $(pwd)/scripts/run_on_init.sh; fi
 vscode:
   extensions:
     - austenc.laravel-blade-spacer@1.0.3:iQ+wc1o3sg9U3k+I1g1J2w==
