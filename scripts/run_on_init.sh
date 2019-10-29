@@ -8,5 +8,6 @@ sleep 5s
 source ~/.bashrc
 
 alias start-mongo-express='mongo-express -H 127.0.0.1 & mongod'
-mongod &
+
 mongo-express -H 127.0.0.1 &
+mongod &
