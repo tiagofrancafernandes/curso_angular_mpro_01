@@ -12,9 +12,13 @@ Primeiro projeto desenvolvendo junto com o curso do MPRO
 ## After:
 
 1 - Press CMD/CTRL+Shift+P and search by "fork" 
-2 - Select "GitHub:Fork"
+
+2 - Select "GitHub:Fork" (https://prnt.sc/pq4xhj)
+
 3 - Select "Fork to my account"
+
 4 - Done! You have a fork of this repo
+
 
 #### The credentials of mongo-express (mongo-db web client)
 
@@ -22,7 +26,7 @@ Primeiro projeto desenvolvendo junto com o curso do MPRO
 
 > Password: pass
 
-https://prnt.sc/pq4xhj
+
 
 
 ### I am in Telegram
