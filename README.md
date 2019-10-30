@@ -23,15 +23,17 @@ https://gitpod.io/#https://github.com/TiagoFrancaFernandesOPEN/curso_angular_mpr
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TiagoFrancaFernandesOPEN/curso_angular_mpro_01>)
 
-#After:
-
-## #1 
+## After:
 
 1 - Press CMD/CTRL+Shift+P and search by "fork" 
 2 - Select "GitHub:Fork"
 3 - Select "Fork to my account"
 4 - Done! You have a fork of this repo
 
+### PS 
+The credentials of mongo-express (mongo-db web client)
+User: admin
+Password: pass
 
 https://prnt.sc/pq4xhj
 
