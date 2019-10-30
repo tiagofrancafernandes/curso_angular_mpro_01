@@ -16,8 +16,7 @@ Primeiro projeto desenvolvendo junto com o curso do MPRO
 3 - Select "Fork to my account"
 4 - Done! You have a fork of this repo
 
-### PS 
-> The credentials of mongo-express (mongo-db web client)
+#### The credentials of mongo-express (mongo-db web client)
 
 > User: admin
 
