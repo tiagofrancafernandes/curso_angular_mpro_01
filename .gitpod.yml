@@ -14,9 +14,12 @@ vscode:
   extensions:
     - austenc.laravel-blade-spacer@1.0.3:iQ+wc1o3sg9U3k+I1g1J2w==
     - onecentlin.laravel-blade@1.20.0:cRpyKxGh7po7Nes2YsNVLg==
-    - ryu1kn.text-marker@1.11.0:I3VSuzsSBVuaUKyKq6dSSQ==
-    - alefragnani.project-manager@10.8.0:yI+BFyVOg0Ryxeo0JqFXaQ==
     - tiansin.vscode-laravel-assist@0.1.7:GEJzc+tLqwGoCs6GZsq63w==
     - alefragnani.Bookmarks@10.5.0:gIDcNP8zFn99fweImt4TEw==
     - mkloubert.vscode-kanban@1.26.2:0lplT00eA+EiYHicx8A+Jw==
     - ms-vsliveshare.vsliveshare-pack@0.3.4:SHAGljo8pKUdyOKmsw+SXw==
+    - natewallace.angular2-inline@0.0.17:ojWcsbGsGnlz1DFYerNaFA==
+    - PKief.material-icon-theme@3.9.1:g1O+jL+iaYZp5mMmzpPEug==
+    - Angular.ng-template@0.802.3:NXdGFSAjVGIf2hXGs2sKbg==
+    - wayou.vscode-todo-highlight@1.0.4:8IqxuxCVol2WnScJc5xVzg==
+    - Gruntfuggly.todo-tree@0.0.160:0EOJ2NmIQrcK1WZlW/28GQ==

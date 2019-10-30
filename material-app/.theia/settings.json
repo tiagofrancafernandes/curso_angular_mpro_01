@@ -1,0 +1,11 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.wordWrap": "on",
+  "editor.autoIndent": true,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.autoSaveDelay": 2500,"editor.autoSave": "on"
+}
