@@ -12,6 +12,9 @@ export class EventBindingComponent implements OnInit {
   btnEnable = true;
   spinnerValue = 0;
   i = 0 ;
+  selectDisabled = false;
+  selectedOption = 1;
+  firstName = "Tiago";
 
   constructor() { }
 
@@ -35,6 +38,17 @@ export class EventBindingComponent implements OnInit {
       this.btnEnable = true;
       this.spinnerMode = "determinate";},3000);
   }
+  cbChange(event){
+    this.selectDisabled = event.checked;
+  }
+  selectionChange(event){
+    this.selectedOption = event.value;
+  }
+  /* inputEvent(event){
+     this.firstName = event.target.value;
+   }
+   //modificado para usar two way data binding
+  */
 
 
 }

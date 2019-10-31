@@ -2,3 +2,11 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+#log{
+  background: lightgray;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    /* margin: 1em 0px; */
+    width: 100%;
+}

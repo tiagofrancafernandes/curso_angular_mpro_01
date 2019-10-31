@@ -7,5 +7,7 @@
   "editor.cursorStyle": "line",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "editor.autoSaveDelay": 2500,"editor.autoSave": "on"
+  "editor.autoSaveDelay": 2500,"editor.autoSave": "on",
+  //"editor.suggest.showIcons": true,
+  "editor.autoClosingBrackets": "always",
 }

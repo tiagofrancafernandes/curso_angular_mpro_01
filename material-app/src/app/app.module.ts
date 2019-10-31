@@ -11,6 +11,10 @@ import {MatInputModule} from '@angular/material/input';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import { ConsolePrintComponent } from './console-print/console-print.component';
+import {MatSelectModule} from '@angular/material/select';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
@@ -21,6 +25,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     StringInterpolationComponent,
     PropertyBindingComponent,
     EventBindingComponent,
+    ConsolePrintComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,10 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     MatIconModule,
     MatCardModule,
     MatInputModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatCheckboxModule,
+    MatSelectModule,
+    MatFormFieldModule
 
   ],
   providers: [],

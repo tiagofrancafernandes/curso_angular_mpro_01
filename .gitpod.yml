@@ -4,6 +4,8 @@ ports:
   - port: 27017
     onOpen: ignore
   - port: 8081
+    onOpen: ignore
+  - port: 4200
     onOpen: open-preview
 tasks:
   - init: if [ -f $GITPOD_REPO_ROOT/scripts/run_on_init.sh ]; then chmod +x $GITPOD_REPO_ROOT/scripts/run_on_init.sh && $GITPOD_REPO_ROOT/scripts/run_on_init.sh; fi && echo "teste ok"
@@ -17,9 +19,8 @@ vscode:
     - tiansin.vscode-laravel-assist@0.1.7:GEJzc+tLqwGoCs6GZsq63w==
     - alefragnani.Bookmarks@10.5.0:gIDcNP8zFn99fweImt4TEw==
     - mkloubert.vscode-kanban@1.26.2:0lplT00eA+EiYHicx8A+Jw==
-    - ms-vsliveshare.vsliveshare-pack@0.3.4:SHAGljo8pKUdyOKmsw+SXw==
     - natewallace.angular2-inline@0.0.17:ojWcsbGsGnlz1DFYerNaFA==
-    - PKief.material-icon-theme@3.9.1:g1O+jL+iaYZp5mMmzpPEug==
     - Angular.ng-template@0.802.3:NXdGFSAjVGIf2hXGs2sKbg==
     - wayou.vscode-todo-highlight@1.0.4:8IqxuxCVol2WnScJc5xVzg==
-    - Gruntfuggly.todo-tree@0.0.160:0EOJ2NmIQrcK1WZlW/28GQ==
+    - Mikael.Angular-BeastCode@8.0.10:J7aGjVXXDeyuqnhsk+vMYw==
+    - Divni.open-files@0.0.4:tD+la1gjzdTnHe/5V+IQpQ==
