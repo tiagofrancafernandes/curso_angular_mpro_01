@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
@@ -15,6 +16,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { ConsolePrintComponent } from './console-print/console-print.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
 
 
@@ -26,6 +28,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     PropertyBindingComponent,
     EventBindingComponent,
     ConsolePrintComponent,
+    TwoWayDataBindingComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatProgressSpinnerModule,
     MatCheckboxModule,
     MatSelectModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    FormsModule
 
   ],
   providers: [],
