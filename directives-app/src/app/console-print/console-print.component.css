@@ -1,0 +1,10 @@
+pre{
+  background: lightgrey;
+  color: red;
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+  width: 100%;
+  font-size: 10px;
+}
