@@ -9,7 +9,8 @@ import {
   MatRadioModule,
   MatCheckboxModule,
   MatInputModule,
-  MatListModule
+  MatListModule,
+  MatIconModule,
 } from "@angular/material";
 
 import { AppComponent } from './app.component';
@@ -43,7 +44,8 @@ import { NgForComponent } from './ng-for/ng-for.component';
       MatRadioModule,
       MatCheckboxModule,
       MatInputModule,
-      MatListModule
+      MatListModule,
+      MatIconModule,
    ],
    providers: [],
    bootstrap: [

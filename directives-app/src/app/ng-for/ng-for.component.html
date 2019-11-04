@@ -12,3 +12,29 @@
     <p>Selected names qty: {{ selectednames.selectedOptions.selected.length }} </p>
   </mat-card-footer>
 </mat-card>
+
+<hr>
+
+<mat-card>
+  <mat-card-content>
+    <mat-list>
+    <h3 matSubHeader>Names</h3>
+      <mat-list-item *ngFor="let name of names">
+        <mat-icon matListIcon>person</mat-icon>
+        <h4 matLine>{{ name }}</h4>
+      </mat-list-item>
+
+      <hr>
+
+      <h3 matSubHeader>Cities</h3>
+      <mat-list-item *ngFor="let city of cities">
+        <mat-icon matListIcon>location_city</mat-icon>
+        <h4 matLine>{{ city.name }}</h4>
+        <h4 matLine>{{ city.uf }}</h4>
+      </mat-list-item>
+
+    </mat-list>
+  </mat-card-content>
+  <mat-card-footer>
+  </mat-card-footer>
+</mat-card>
